@@ -67,23 +67,6 @@ npm run dev
 | `npm run preview` | Preview hasil build |
 | `npm run lint` | Jalankan ESLint |
 
-## 🔒 Keamanan
-
-Proyek ini mengimplementasikan beberapa langkah keamanan:
-
-- **DOMPurify** - Sanitasi HTML untuk mencegah XSS
-- **URL Validation** - Validasi URL gambar eksternal
-- **Content Security** - Pembatasan tag HTML yang diizinkan
-- **Input Encoding** - Encoding parameter URL
-- **Referrer Policy** - Kontrol informasi referrer
-
-## 🌐 API
-
-Website ini terhubung dengan WordPress REST API:
-```
-https://waginopowakatobi.online/cms/wp-json/wp/v2/
-```
-
 ## 📱 Fitur
 
 - ✅ Responsive design (Mobile & Desktop)
@@ -108,4 +91,4 @@ Dikembangkan oleh Mahasiswa KKNT 115 Universitas Hasanuddin
 
 ## 📄 Lisensi
 
-© 2025 Desa Waginopo - All Rights Reserved
+© Adrian
