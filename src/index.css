@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-desa-primary: #166534; /* Hijau Tua Instansi */
+  --color-desa-secondary: #facc15; /* Kuning Aksen */
+  --color-desa-dark: #064e3b;
+}
