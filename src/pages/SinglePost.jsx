@@ -40,8 +40,6 @@ const SinglePost = () => {
         <div className="rounded-3xl overflow-hidden shadow-2xl mb-12 h-[300px] md:h-[500px]">
            <img src={post._embedded?.['wp:featuredmedia']?.[0]?.source_url} className="w-full h-full object-cover" alt="Featured" />
         </div>
-
-        {/* PROSE class di bawah ini butuh @tailwindcss/typography */}
         <div 
           className="prose prose-lg max-w-none text-gray-800 leading-relaxed prose-img:rounded-2xl"
           dangerouslySetInnerHTML={{ __html: post.content.rendered }} 
